@@ -1,0 +1,4 @@
+*.lisp	eol=lf
+*.asd	eol=lf
+*.txt	eol=crlf
+*.md	eol=crlf
