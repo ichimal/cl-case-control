@@ -42,13 +42,13 @@ This package is a helper for solving such problems.
   If the given object is not a character, these predicates signal an type error. 
 
 ### general-purpose converters:
-* `char-invertcase`
+* *[Function]* `char-invertcase`
 
   Returns case inverted character.
 
   If the given object is not a character, `char-invertcase` signals an type error.
 
-* `string-invertcase`
+* *[Function]* `string-invertcase`
 
   Returns case inverted string. 
 
@@ -83,11 +83,11 @@ This package is a helper for solving such problems.
 
 ### predicates for system/package case sensitiveness:
 
-* *[Function]* case-sensitive-p
+* *[Function]* `case-sensitive-p`
 
   Returns *true* if the system (compiler and/or interpreter) supports case-sensitiveness, otherwise, returns *false*.
 
-* *[Function]* case-sensitive-package-p
+* *[Function]* `case-sensitive-package-p`
 
   Returns *true* if the given package (compiler and/or interpreter) supports case-sensitiveness, otherwise, returns *false*.
 
@@ -95,7 +95,7 @@ This package is a helper for solving such problems.
 
 ### utilities to unify codes in both case-sensitive environment and case-insensitive environment:
 
-* *[Function]* adj-case
+* *[Function]* `adj-case`
 
   Adjust string case. This function is a helper for making intern parameter.
 
@@ -133,7 +133,7 @@ This package is a helper for solving such problems.
                 :a-case-insensitive-package )
         ; => a-case-insensitive-package::|bar|
 
-* *[Function]* case-selective-intern
+* *[Function]* `case-selective-intern`
 
   A `intern` wrapper.
 
@@ -142,7 +142,7 @@ This package is a helper for solving such problems.
   And also, you can specify intern-package optionally.
 
 
-* *[Macro]* case-selective-defpackage
+* *[Macro]* `case-selective-defpackage`
 
   A `defpackage` wrapper.
 
