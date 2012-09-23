@@ -54,7 +54,7 @@ This package is a helper for solving such problems.
 
   If the given object is not a string designator, `string-invertcase` signals an type error.
 
-  Note: `string-invertcase` also accepts string designator,
+  Note: `string-invertcase` accepts not only string but also string designator,
   but applying `string-invertcase` to symbol is depricated because an intuitive result is not necessarily obtained. 
 
   e.g.
