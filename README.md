@@ -89,7 +89,7 @@ This package is a helper for solving such problems.
 
 * *[Function]* `case-sensitive-package-p`
 
-  Returns *true* if the given package (compiler and/or interpreter) supports case-sensitiveness, otherwise, returns *false*.
+  Returns *true* if the given package supports case-sensitiveness, otherwise, returns *false*.
 
   Current `*package*` is used when an package parameter is ommited.
 
