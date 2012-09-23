@@ -119,7 +119,7 @@ This package is a helper for solving such problems.
         (adj-case "Foo" :a-case-sensitive-package) ; => "Foo"
 
    WARNING: on GNU CLISP, specifying package explicitly
-   in boty `adj-case` and `intern` may cause error because of incomaptibility between cl:intern and cs-cl:intern.
+   in both `adj-case` and `intern` may cause error because of incomaptibility between cl:intern and cs-cl:intern.
 
         (in-package :a-case-insensitive-package)
         ;; no problem
