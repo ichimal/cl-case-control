@@ -23,9 +23,6 @@
     #-(or clisp allegro) nil
     (pushnew :case-sensitiveness *features*) ))
 
-(deftype string-designator nil
-  "The type string-designator is a synonym of (or string character symbol)"
-  '(or string character symbol))
 
 (defun string-designator-p (obj)
   (typep obj 'string-designator) )

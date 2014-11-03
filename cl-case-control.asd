@@ -12,6 +12,7 @@
   :author "SUZUKI Shingo"
   :licence "MIT"
   :description "Supporting case-controlling"
+  :depends-on (:trivial-types)
   :components ((:file "case-control")) )
 
 #| ; for future work
