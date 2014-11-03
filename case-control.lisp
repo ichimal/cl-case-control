@@ -9,7 +9,6 @@
   (:export #:case-sensitive-p #:case-sensitive-package-p)
   (:export #:adj-case #:case-selective-intern #:case-selective-defpackage)
   ;; general purpose type, predicate, and utilities
-  (:export #:string-designator)
   (:export #:string-designator-p #:lowercase-char-p #:uppercase-char-p)
   (:export #:char-invertcase #:string-invertcase) )
 
