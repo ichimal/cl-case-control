@@ -23,13 +23,7 @@ This package is a helper for solving such problems.
 
 ## APIs:
 
-### general-purpose type and predicates:
-
-* *[Type]* `string-designator`
-
-  A synonym of `(or string character symbol)`
-  
-  See CLHS [1.4.1.5 Designators](http://www.lispworks.com/documentation/HyperSpec/Body/01_dae.htm) and its glossary's "[string designator](http://www.lispworks.com/documentation/HyperSpec/Body/26_glo_s.htm#string_designator)."
+### general-purpose predicates:
 
 * *[Function]* `string-designator-p`
 
@@ -153,6 +147,9 @@ This package is a helper for solving such problems.
                (would-you-want-to-make-case-sensitive-package-p) )
           (:nicknames ...)
           ... )
+
+## History
+* removed `string-designator` definition; use `trivial-types` package, instead.
 
 ## License:
 Under MIT license.
